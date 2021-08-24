@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[pipenv]
+allow_prereleases = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+opentelemetry-exporter-jaeger = "*"
+opentelemetry-instrumentation-flask = "*"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+flask = "*"
+requests = "*"
+opentelemetry-instrumentation-requests = "*"
+
+[scripts]
+main = "python ./src/flask_example.py"
+
+[requires]
+python_version = "3.9"
