@@ -54,3 +54,4 @@ docker run --name omega-jaeger \
 ## Todo
 
 - Command-line tool to convert procedures to observability platform-specific queries.
+- Integration with Sigma
