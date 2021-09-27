@@ -1,0 +1,44 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "yaml.format.enable": true,
+    "yaml.validate": true,
+    "[yaml]": {
+        "editor.tabSize": 4,
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "redhat.telemetry.enabled": false,
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=203,E266,E501,W503,F403,F401,E402"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.exclude": {
+        "LICENSE": true,
+        "*/.venv": true,
+        "*/**/__pycache__": true
+    },
+    "python.pythonPath": ".venv/bin/python3.9"
+}
